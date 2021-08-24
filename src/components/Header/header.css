@@ -1,0 +1,51 @@
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    transition: all 0.3s;
+}
+.dropdown-menu{
+  border-top: 4px solid #000080;
+
+
+}
+.dropright:hover>.dropdown-menu{
+  display: block;
+}
+
+.dropdown-item{
+    text-decoration: none !important;
+}
+.nav-item{
+    text-decoration: none !important;
+}
+
+@media screen and (min-width: 600px) {
+    .navbar{
+        height: 60px;
+        background-color: white;
+        box-sizing: border-box;
+    }
+    .navbar-brand{
+        color: black !important;
+        margin-left: 5%;
+    }
+    .navbar .navbar-nav .nav-link {
+        color: black !important;
+        font-family: "Merriweather";
+        font-size: 16px;
+    }
+
+    .navbar-nav > li > a {
+        color: white !important;
+        text-decoration: none !important;
+      }
+    .admision-btn{
+        color: white !important;
+        background-color: red !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar .navbar-nav .nav-link {
+       font-size: 18px;
+    }
+}

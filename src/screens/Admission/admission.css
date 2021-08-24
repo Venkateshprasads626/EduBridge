@@ -1,0 +1,234 @@
+@media screen and (max-width: 599px) {
+    .contact-banner{
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+    }
+    .getintouch-form{
+        width: 90%;
+        margin: 0 auto;
+        background: white;
+        margin-top: 40px;
+    }
+    .getintouch-form h1{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 40px;
+        /* identical to box height */
+        letter-spacing: 0.15em;
+        color: #000000;
+        text-align: start;
+    }
+    .getintouch-form p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+        letter-spacing: 0.05em;
+        color: #000000;
+        text-align: start;
+    }
+    
+    .getin-touch-form{
+        width: 90%;
+        background: #FFFFFF;
+        border: 4px solid #E1AD01;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 680px;
+        padding: 30px;
+    }    
+    .getin-touch-form input{
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      .getin-touch-form input[type="email"],input[type="text"]{
+        color: black;
+        background: #FFFFFF;
+        height: 40px;
+        border: none;
+        width: 100%;
+        border-radius: 0px;
+        border-bottom: 2px solid black !important;
+    }
+
+    .getin-touch-form input[type="number"] {
+        color: black;
+        background: #FFFFFF;
+        height: 40px;
+        border: none;
+        width: 100%;
+        border-radius: 0px;
+        border-bottom: 2px solid black !important;
+    }
+
+    .getin-touch-form .drop-down{
+        color: black;
+        background: #FFFFFF;
+        height: 40px;
+        border: none;
+        width: 100%;
+        border-radius: 0px;
+        border-bottom: 2px solid black !important;
+    }
+    textarea{
+        background: #FFFFFF;
+        border: 2px solid #313335;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 100%;
+        height: 100px;
+    }
+    .getin-touch-form input::placeholder{
+        text-align: start;
+    }
+
+    textarea::placeholder{
+        font-family: Poppins;
+    }
+
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+    .submit-btn2{
+        background: #30E668;
+        border-radius: 10px;
+        width: 8rem;
+        font-size: 16px;
+        padding: 10px;
+        float: right;
+    }
+
+   
+}
+
+
+@media screen and (min-width: 600px) {
+    .contact-banner{
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+    }
+    .getintouch-form{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .getintouch-form h1{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 40px;
+        /* identical to box height */
+        letter-spacing: 0.15em;
+        color: #000000;
+        text-align: start;
+    }
+    .getintouch-form p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+        letter-spacing: 0.05em;
+        color: #000000;
+        text-align: start;
+    }
+    
+    .getin-touch-form{
+        width: 670px;
+        background: #FFFFFF;
+        border: 4px solid #E1AD01;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+       
+        padding: 60px;
+    }    
+    .getin-touch-form input{
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      .getin-touch-form input[type="email"],input[type="text"]{
+        color: black;
+        background: #FFFFFF;
+        height: 40px;
+        border: none;
+        width: 450px;
+        border-radius: 0px;
+        border-bottom: 2px solid black !important;
+    }
+    .getin-touch-form input[type="number"] {
+        color: black;
+        background: #FFFFFF;
+        height: 40px;
+        border: none;
+        width: 450px;
+        border-radius: 0px;
+        border-bottom: 2px solid black !important;
+    }
+    .getin-touch-form .drop-down{
+        color: black;
+        background: #FFFFFF;
+        height: 40px;
+        border: none;
+        width: 450px;
+        border-radius: 0px;
+        border-bottom: 2px solid black !important;
+    }
+    textarea{
+        background: #FFFFFF;
+        border: 2px solid #313335;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 450px;
+        height: 150px;
+    }
+    .getin-touch-form input::placeholder{
+        text-align: start;
+    }
+
+    textarea::placeholder{
+        font-family: Poppins;
+    }
+
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+    .submit-btn2{
+        background: #30E668;
+        border-radius: 10px;
+        width: 8rem;
+        font-size: 16px;
+        padding: 10px;
+        float: right;
+        margin-right: 38px;
+    }
+
+
+ 
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-banner img{
+        width: 100%;
+        height: 500px;
+    }
+    iframe{
+        height: 400px;
+    }
+}
