@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './header.css'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Header extends Component{
     render() {
@@ -8,40 +8,47 @@ class Header extends Component{
      
                
                 <div className="nav2">
-                    <nav class="navbar navbar-expand-lg navbar-light ">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#">ABODE</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                    <nav className="navbar navbar-expand-lg navbar-light ">
+                        <div className="container-fluid">
+                            <Link className="navbar-brand" to="/">ABODE</Link>
+                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/">About</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Our School</a>
-                                </li>
-                                <Link class="nav-item dropdown">
-                                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-item dropdown">
+                                    <Link className="nav-link" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Our School
+                                    </Link>
+                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <Link className="dropdown-item" to="/OurSchool/Toddlers">Toddlers Program</Link>
+                                        <Link className="dropdown-item" to="/OurSchool/Preeschool">Preschool Program</Link>
+                                        <Link className="dropdown-item" to="/OurSchool/Elementary">Elementary Program</Link>
+                                    </ul>
+                                </Link>
+                                <Link className="nav-item dropdown">
+                                    <Link className="nav-link" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Our Philosophy
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link class="dropdown-item" to="/OurPhilosophy/Montessori">Montessori</Link>
-                                        <Link class="dropdown-item" to="/OurPhilosophy/MultipleIntel">Multiple Intelligence</Link>
-                                        <Link class="dropdown-item" to="/OurPhilosophy/HigherIntel">Higher Intelligence</Link>
+                                    </Link>
+                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <Link className="dropdown-item" to="/OurPhilosophy/Montessori">Montessori</Link>
+                                        <Link className="dropdown-item" to="/OurPhilosophy/MultipleIntel">Multiple Intelligence</Link>
+                                        <Link className="dropdown-item" to="/OurPhilosophy/HigherIntel">Higher Intelligence</Link>
                                     </ul>
                                 </Link>
                               
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Gallery</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Gallery">Gallery</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Circulam</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Circulam">Circulam</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"></a>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="#"></Link>
                                 </li>
                                 
                                 <Link to="/Admission"><button type="button" className="btn admision-btn">Admissions</button></Link>

@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './footer.css'
-import social1 from '../../assets/social1.svg'
-import social2 from '../../assets/social2.svg'
-import social3 from '../../assets/social3.svg'
+
 
 class Footer extends Component{
     render() {
@@ -19,7 +17,7 @@ class Footer extends Component{
               
                 <div className="col-md-3 mt-md-0 mt-3">
                     <h4 className="h4-footer">Address</h4>
-                    <p className="address-btn"><button type="button" className="btn" style={{backgroundColor:"#FC6467",color:"white"}}><i class="fa fa-map-marker-alt"></i>Newyork</button></p>
+                    <p className="address-btn"><button type="button" className="btn" style={{backgroundColor:"#FC6467",color:"white"}}><i className="fa fa-map-marker-alt"></i>Newyork</button></p>
                       <p className="add">
                           MIG 29 - 32
                           Opp. DLF 3rd Gate
@@ -31,7 +29,7 @@ class Footer extends Component{
         
                 <div className="col-md-3 mt-md-0 mt-3">
                 <h4 className="h4-footer" style={{visibility:"hidden"}}>Address</h4>
-                    <p className="address-btn"><button type="button" className="btn" style={{backgroundColor:"#FC6467",color:"white"}}><i class="fa fa-map-marker-alt"></i>Australia</button></p>
+                    <p className="address-btn"><button type="button" className="btn" style={{backgroundColor:"#FC6467",color:"white"}}><i className="fa fa-map-marker-alt"></i>Australia</button></p>
                     <p className="add1">
                         86/C, Huda Layout
                         Opp Aparna Sarovar

@@ -164,7 +164,7 @@
       }
       .getin-touch-form input[type="email"],input[type="text"]{
         color: black;
-        background: #FFFFFF;
+    
         height: 40px;
         border: none;
         width: 450px;
@@ -231,4 +231,12 @@
     iframe{
         height: 400px;
     }
+}
+
+
+#error-msg{
+    color: red;
+    text-align: start;
+    position: absolute;
+    margin-top: -20px;
 }

@@ -10,7 +10,7 @@ class HigherIntel extends Component{
                 <Header />
                     <div id="page-content">
                         <div>
-                            <img src={ourPhilosophyBanner} className="ourPhilosophyBanner" />
+                            <img src={ourPhilosophyBanner} className="ourPhilosophyBanner" alt="Image12"/>
                             <div className="innerTextbox">
                                 <h1>Our Philosophy</h1>
                             </div>
